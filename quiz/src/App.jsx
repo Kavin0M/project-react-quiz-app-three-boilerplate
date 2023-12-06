@@ -8,13 +8,14 @@ function App() {
 
   return (
     <>
+    <button><Link to="/">Start</Link></button>
       <Routes>
-        <Route path="/project-react-quiz-app-three-boilerplate/" element={<Home />}/>
+        <Route path="/" element={<Home />}/>
         <Route path='/quiz' element={<Quiz />}/>
         <Route path='/result' element={<Result />}/>
       </Routes>
     </>
-  )
+  ) 
 }
 
 export default App
