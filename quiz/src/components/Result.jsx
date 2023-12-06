@@ -18,7 +18,7 @@ function Result() {
         </div>
         <div className="buttons2 flex">
             <Link to="/quiz"><div className="again-button button4">Play Again</div></Link>
-            <Link to="/project-react-quiz-app-three-boilerplate/"><div className="home-button button4">Back to home</div></Link>
+            <Link to="/"><div className="home-button button4">Back to home</div></Link>
         </div>
       </div>
   )
