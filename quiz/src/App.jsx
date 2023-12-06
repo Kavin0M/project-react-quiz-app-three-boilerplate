@@ -2,7 +2,7 @@ import './App.css'
 import Home from './components/Home'
 import Quiz from './components/Quiz'
 import Result from './components/Result'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Link } from 'react-router-dom'
 
 function App() {
 
